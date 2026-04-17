@@ -1,0 +1,37 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+
+# LangChain ecosystem
+langchain==0.3.7
+langchain-core==0.3.19
+langchain-community==0.3.7
+langchain-chroma==0.1.4
+langchain-ollama==0.2.0
+langchain-huggingface==0.1.2
+
+# Vector database
+chromadb==0.5.20
+
+# Embeddings (free, local)
+sentence-transformers==3.3.0
+
+# Document processing
+pypdf==5.1.0
+
+# Configuration
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
+
+# Frontend (Phase 4)
+streamlit==1.40.1
+
+# Observability (Phase 5)
+langfuse==2.54.1
