@@ -1,4 +1,8 @@
 # RAG Chatbot
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-phase_1-orange)
+
 
 A production-oriented Retrieval-Augmented Generation (RAG) chatbot built with
 free, open-source components. Runs fully local via Ollama, or in the cloud
