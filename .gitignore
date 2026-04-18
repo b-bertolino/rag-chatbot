@@ -46,3 +46,6 @@ coverage.xml
 
 # Docker
 .dockerignore
+
+# Personal
+LEARNING_NOTES.md
