@@ -36,7 +36,10 @@ class Settings(BaseSettings):
     groq_model: str = "llama-3.1-8b-instant"
 
     # Embeddings (always local sentence-transformers)
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    # multilingual-e5-base: 278MB, 768 dim, supports Italian + English.
+    # Requires "query: " / "passage: " prefixes — handled in E5Embeddings wrapper.
+    embedding_model: str = "intfloat/multilingual-e5-base"
+    embedding_device: str = "cpu"
 
     # Vector DB
     chroma_path: str = "./chroma_db"
